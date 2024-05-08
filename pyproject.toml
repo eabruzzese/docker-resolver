@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "docker-hosts"
+version = "0.1.0"
+description = ""
+authors = ["Eric Abruzzese <eric.abruzzese@aptible.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+docker = "^7.0.0"
+dnslib = "^0.9.24"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
